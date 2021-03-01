@@ -167,7 +167,8 @@ main {
 }
 
 #infos,
-#it-solution {
+#it-solution,
+#service-solution {
   margin-top: 1vw;
   margin-left: 3vw;
 }
@@ -261,3 +262,41 @@ h5 {
 }
 
 /* services page style */
+
+#service-solution {
+  margin-top: 4vw;
+}
+.solu-desc h1 {
+  font-family: var(--primary-font);
+  margin-bottom: 2vw;
+  font-size: 25px;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(770px, 2fr));
+  grid-gap: 19px;
+  margin-bottom: 2vw;
+  padding: 5vw;
+}
+
+.columns > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+}
+.columns h1 {
+  font-family: var(--primary-font);
+}
+.columns p {
+  font-family: var(--secondary-font);
+}
+.columns > div > .image2 {
+  height: 15vw;
+  width: 24vw;
+}
+
+.colums-info {
+  padding: 2vw;
+}
