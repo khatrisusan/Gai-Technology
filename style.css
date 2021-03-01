@@ -1,7 +1,126 @@
-*{margin: 0;
+*{
+margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-body{
-    background-color: hotpink;
+
+
+/* about-page */
+/* main{
+    margin-left: 5vw;
+    margin-right: 5vw;
+} */
+.topic{
+    display: flex;
+    flex-direction: row;
+}
+.topic2{
+    margin-top: -15%;
+}
+.topic .line{
+    margin: 2vw 2vw;
+    margin-top: 1vw;
+    height: 0.5vw;
+    width:8vw;
+    background-color: green;
+}
+.more-info{
+display: grid;
+grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+justify-content: center;
+align-content: center; 
+    
+}
+
+/* .top{
+    width: 40%;
+}
+.imgContainer{
+    width: 40%;
+    height: auto;
+} */
+.more-info img{
+    height: 50%;
+}
+.paraContainer{
+    width: 90%;
+    margin-top:1%;
+    align-items: center; 
+    align-content: center; 
+    font-size: 1.5em;
+}
+
+/* contact page style */
+.sashi{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2vw;
+}
+.words p{
+    margin-left: 5vw;
+    margin-top: 7vw;
+    font-size: 1.6em;
+}
+.sashiImg img{
+width: 45%;
+}
+.testinimials{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.testinomial_topic{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+.line{
+    background-color: green;
+    height: 0.5vw;
+    width: 8vw;
+}
+.testinomial_text p{
+    margin-top: 3vw;
+    margin-left:25% ;
+    margin-right:25% ;
+    font-size: 1.3em;
+}
+.person_name h2{
+    margin-left:10% ;
+    margin-right:10% ;
+    margin-top: 1vw;
+    font-size: 1.6em;
+    text-align: center;
+}
+.person_address h2{
+    margin-left:10% ;
+    margin-right:10% ;
+    font-size: 1.6em;
+    text-align: center;
+}
+.contact-form{
+    margin-top: 5vw;
+    display: grid;
+    grid-template-columns: "1fr 1fr";
+    grid-template-areas: "text forms";
+}
+.text{
+    margin-top: 8vw;
+    margin-left: 5vw;
+    grid-area: text;
+    font-size: 2.1vw;
+}
+.forms{
+    grid-area: forms;
+    display: block;
+}
+input, textarea,button[type="submit"]{
+    font-size: 1.3vw;
+    margin-top:1vw ;
+    display: block;
+}
+button#submitBtn{
+    font-size: 1.3vw;
+    color:#fff;
+    background-color: green;
+    padding: 0.8vw;
 }
